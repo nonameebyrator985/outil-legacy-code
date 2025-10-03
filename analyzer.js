@@ -1,10 +1,10 @@
 function analyzeComplexity(code) {
-    // Logique pour calculer la complexité cyclomatique
+    // Logic to calculate cyclomatic complexity
     return 0; // Placeholder
 }
 
 function identifyDependencies(code) {
-    // Logique pour identifier les dépendances
+    // Logic to identify dependencies in the code
     return []; // Placeholder
 }
 
