@@ -1,0 +1,15 @@
+{
+  "name": "outil-legacy-code",
+  "version": "1.0.0",
+  "description": "Un outil pour gérer et refactoriser le code hérité.",
+  "main": "index.js",
+  "bin": {
+    "outil-legacy-code": "index.js"
+  },
+  "scripts": {
+    "analyze": "node index.js"
+  },
+  "keywords": ["legacy", "code", "refactoring"],
+  "author": "Ton Nom",
+  "license": "MIT"
+}
