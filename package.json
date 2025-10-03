@@ -10,6 +10,6 @@
     "analyze": "node index.js"
   },
   "keywords": ["legacy", "code", "refactoring"],
-  "author": "Ton Nom",
+  "author": "Votre Nom",
   "license": "MIT"
 }
