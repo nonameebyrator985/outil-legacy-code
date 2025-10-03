@@ -19,4 +19,9 @@ if (!fs.existsSync(projectPath)) {
     process.exit(1);
 }
 
+if (!fs.lstatSync(projectPath).isDirectory()) {
+    console.error('The provided path is not a directory.');
+    process.exit(1);
+}
+
 analyzeProject(projectPath);
