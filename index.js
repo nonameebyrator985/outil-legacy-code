@@ -14,4 +14,9 @@ if (args.length < 1) {
 }
 
 const projectPath = args[0];
+if (!fs.existsSync(projectPath)) {
+    console.error('The provided project path does not exist.');
+    process.exit(1);
+}
+
 analyzeProject(projectPath);
