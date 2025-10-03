@@ -2,14 +2,14 @@ const fs = require('fs');
 const path = require('path');
 
 function analyzeProject(projectPath) {
-    // Logique d'analyse à implémenter
-    console.log(`Analyse du projet en cours : ${projectPath}`);
-    // Placeholder pour les résultats d'analyse
+    // Analysis logic to be implemented
+    console.log(`Analyzing project at: ${projectPath}`);
+    // Placeholder for analysis results
 }
 
 const args = process.argv.slice(2);
 if (args.length < 1) {
-    console.error('Veuillez fournir le chemin vers le projet.');
+    console.error('Please provide the path to the project.');
     process.exit(1);
 }
 
