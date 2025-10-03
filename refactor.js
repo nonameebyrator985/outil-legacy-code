@@ -1,6 +1,6 @@
 function suggestRefactoring(code) {
-    // Logique pour suggérer des améliorations
-    return []; // Placeholder pour les suggestions
+    // Logic to suggest improvements
+    return []; // Placeholder for suggestions
 }
 
 module.exports = { suggestRefactoring };
