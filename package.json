@@ -1,6 +1,6 @@
 {
   "name": "outil-legacy-code",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Un outil pour gérer et refactoriser le code hérité.",
   "main": "index.js",
   "bin": {
